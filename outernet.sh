@@ -1,4 +1,7 @@
 #!/bin/sh
-demod-presets americas
+echo "Into the script"
+#demod-presets americas
+echo "Past demod-presets"
 decoder
+
 

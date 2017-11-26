@@ -18,4 +18,5 @@ RUN cd outernet-linux-lband-master && sudo ./installer.sh quick
 
 ADD outernet.sh /
 
-ENTRYPOINT /outernet.sh
+#ENTRYPOINT /outernet.sh
+CMD "/outernet.sh"
